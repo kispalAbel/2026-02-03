@@ -1,9 +1,10 @@
 #container {
     border: 20px red ridge;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px 100px;
+    display: grid;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+    gap: 20px 100px; */
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .cikk {
