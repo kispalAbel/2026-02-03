@@ -1,12 +1,23 @@
 #container {
     border: 20px red ridge;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px 100px;
 }
 
 .cikk {
     border: 10px black solid;
-    display: inline-block;
-    float: left;
-    width: calc(100% / 3);
-    box-sizing: border-box;
+    /* width: calc(100% / 3); */
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+
+    flex: 1 0 200px; /* <-- Az előző három sor rövidítése */
+}
+
+.nagyobb {
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: 200px; 
 }
