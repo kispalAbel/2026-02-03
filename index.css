@@ -4,4 +4,8 @@
 
 .cikk {
     border: 10px black solid;
+    display: inline-block;
+    /* width: calc(100% / 3 - 20px); */
+    width: calc(100% / 3);
+    box-sizing: border-box;
 }
