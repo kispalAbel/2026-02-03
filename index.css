@@ -1,11 +1,12 @@
 #container {
     border: 20px red ridge;
+    height: 300px;
 }
 
 .cikk {
     border: 10px black solid;
     display: inline-block;
-    /* width: calc(100% / 3 - 20px); */
+    float: left;
     width: calc(100% / 3);
     box-sizing: border-box;
 }
